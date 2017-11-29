@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bdtrainposition.MainActivity"
+    tools:ignore="MergeRootFrame" 
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/silkcity_btn1"
+            style="@style/btnStyleShakespeare"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:text="Silk city Express\nDhaka-Rajshahi" />
+
+        <Button
+            android:id="@+id/silkcity_btn2"
+            style="@style/btnStyleOrange"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:gravity="center"
+            android:text="Silk city Express\nRajshahi-Dhaka" />
+        <Button
+            android:id="@+id/padma_btn1"
+            style="@style/btnStyleShakespeare"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:text="Padma Express\nDhaka-Rajshahi" />
+
+        <Button
+            android:id="@+id/padma_btn2"
+            style="@style/btnStyleOrange"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:text="Padma Express\nRajshahi-Dhaka" />
+
+        <Button
+            android:id="@+id/dhumketu_btn1"
+            style="@style/btnStyleShakespeare"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:text="Dhumketu Express\nDhaka-Rajshahi" />
+
+        <Button
+            android:id="@+id/dhumketu_btn2"
+            style="@style/btnStyleOrange"
+            android:layout_width="@dimen/btnwidth"
+            android:layout_height="@dimen/btnheight"
+            android:text="Dhumketu Express\nRajshahi-Dhaka" />
+    </LinearLayout>
+
+</FrameLayout>
+
